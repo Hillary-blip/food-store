@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1150px;
+    background: rgb(242, 242, 242);
+}
+
+
+.container-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.info__block-inner {
+    border-right: 1px solid rgb(164, 172, 173);
+    padding-right: 10px;
+}
+
+.number {
+    color: rgb(255, 152, 70);
+    font-size: 18px;
+}
+
+.time-work {
+    color: rgb(164, 172, 173);
+}
+
+.dilivery {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviews-btn {
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.reviews-btn:hover {
+    color: rgb(255, 152, 70);
+}
+
+.dilivery-btn {
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.dilivery-btn:hover {
+    color: rgb(255, 152, 70);
+}
+
+
+.search {
+    margin-left: 50px;
+}
+
+.title-cuty {
+    font-size: 14px;
+    color: rgb(164, 172, 173);
+    font-weight: 400;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+
+.recomendation-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-left: -15px;
+}
+
+.rec-item {
+    display: flex;
+    gap: 20px;
+}
+
+.chiken {
+    position: relative;
+    text-align: end;
+}
+
+.rols {
+    position: relative;
+}
+
+.corn {
+    position: relative;
+}
+
+.pizza {
+    position: relative;
+    text-align: end;
+}
+
+.akcee {
+    position: relative;
+}
+
+
+.chiken::after {
+    content: 'Чикен';
+    left: 22%;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+
+
+.rols::after {
+    content: 'С угрем';
+    left: 10px;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+
+.corn::before {
+    content: 'Корн-дог';
+    left: 10px;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+
+.pizza::after {
+    content: 'Пицца';
+    left: 22%;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}
+
+.akcee::after {
+    content: 'Акции';
+    left: 10px;
+    bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+}

@@ -1,0 +1,32 @@
+.slider{
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.slider__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dots {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dots.active {
+    background-color: black;
+}
